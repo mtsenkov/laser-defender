@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     [SerializeField] float padding = 1f;
     [SerializeField] GameObject laserPrefab;
     [SerializeField] float projectileSpeed = 10f;
-    [SerializeField] float projectileFirePeriod = 0.1f;
+    [SerializeField] float projectileFirePeriod = 0.01f;
 
     Coroutine firingCoroutine;
 
