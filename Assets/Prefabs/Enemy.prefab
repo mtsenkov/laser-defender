@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8254233712790236026}
   - component: {fileID: 8254233712790236027}
+  - component: {fileID: -824049082086162522}
   - component: {fileID: 1654161416929911888}
   - component: {fileID: 7525074597905954982}
-  - component: {fileID: -824049082086162522}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -85,31 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1654161416929911888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8254233712790236024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a98d356467df5b4da2a6790e2552183, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &7525074597905954982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8254233712790236024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ddf6113de0ff18419508b32ef63b9d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
 --- !u!61 &-824049082086162522
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -136,3 +111,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.93, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &1654161416929911888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8254233712790236024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a98d356467df5b4da2a6790e2552183, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7525074597905954982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8254233712790236024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ddf6113de0ff18419508b32ef63b9d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  shotCounter: 0
+  minTimeBetweenShots: 0.2
+  maxTimeBetweenShots: 3
+  laserPrefab: {fileID: 3033991181021155659, guid: 5849fce6b28e0c94db5ff34387b5f63e, type: 3}
+  projectileSpeed: 10

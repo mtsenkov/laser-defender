@@ -140,7 +140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8254233712790236026, guid: 681989a4503a24043a506f4e70482660, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.914607
+      value: -3.39
       objectReference: {fileID: 0}
     - target: {fileID: 8254233712790236026, guid: 681989a4503a24043a506f4e70482660, type: 3}
       propertyPath: m_LocalPosition.z
@@ -420,10 +420,6 @@ PrefabInstance:
     - target: {fileID: 4738103321444475225, guid: dc6473b1d729edd488c18e21a5dac5ee, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 4738103321444475226, guid: dc6473b1d729edd488c18e21a5dac5ee, type: 3}
-      propertyPath: projectileFirePeriod
-      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4738103321444475228, guid: dc6473b1d729edd488c18e21a5dac5ee, type: 3}
       propertyPath: m_LocalPosition.x
