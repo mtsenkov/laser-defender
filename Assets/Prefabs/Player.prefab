@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4738103321444475225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -8.81, z: 0}
+  m_LocalPosition: {x: 0, y: -8.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -102,6 +102,10 @@ MonoBehaviour:
   laserPrefab: {fileID: 3033991181021155659, guid: 1e82b8b126ffb2e41a1c840d925fc20e, type: 3}
   projectileSpeed: 20
   projectileFirePeriod: 0.05
+  deathSFX: {fileID: 8300000, guid: 695246ef5a403a74bbb6a539328080fe, type: 3}
+  deathVolume: 0.5
+  shootSFX: {fileID: 8300000, guid: 049d7f01dd7386f41893cd7a40f21cbf, type: 3}
+  shootVolume: 0.01
 --- !u!60 &5225321934519162314
 PolygonCollider2D:
   m_ObjectHideFlags: 0
