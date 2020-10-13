@@ -2,8 +2,9 @@
 
 # TODO
 
-Add credits to music artist\n
-Add options to change or mute game volume.\n
-Add more enemies, lasers and paths.\n
-Add sound queue when player gets hit.\n
-Add player death particle effect.\n
+Add credits to music artist\
+Add options to change or mute game volume.\
+Add more enemies, lasers and paths.\
+Add sound queue when player gets hit.\
+Add player death particle effect.\
+Add random number of enemy spawns per wave.\
