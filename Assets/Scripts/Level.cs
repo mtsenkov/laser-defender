@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Level : MonoBehaviour
 {
+    [SerializeField] float WaitTimeAfterDeath = 3f;
     public void LoadStartMenu()
     {
         SceneManager.LoadScene(0);
@@ -17,6 +18,12 @@ public class Level : MonoBehaviour
 
     public void LoadGameOver()
     {
+        StartCoroutine(WaitAndLoad());
+    }
+    
+    private IEnumerator WaitAndLoad()
+    {
+        yield return new WaitForSeconds(WaitTimeAfterDeath);
         SceneManager.LoadScene("Game Over");
     }
 

@@ -64,6 +64,7 @@ public class Player : MonoBehaviour
 
     private void Death()
     {
+        FindObjectOfType<Level>().LoadGameOver();
         Destroy(gameObject);
         // Play audio source at camera, get same death sound regardless of enemy's position
         AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathVolume);
