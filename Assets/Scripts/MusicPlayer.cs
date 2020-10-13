@@ -1,13 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class MusicPlayer : MonoBehaviour
 {
-    // Start is called before the first frame update
+    AudioSource audioSource;
+
     void Awake()
     {
         SetUpSingleton();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void SetUpSingleton()
@@ -22,9 +25,26 @@ public class MusicPlayer : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetVolume(float volume)
     {
-        
+        audioSource.volume = volume;
     }
+
+    public float GetVolume()
+    {
+        return audioSource.volume;
+    }
+
+    public bool ToggleSound()
+    {
+        if (gameObject.GetComponent<AudioSource>().mute)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
 }

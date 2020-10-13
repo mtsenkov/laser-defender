@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -2264501181605821772}
   - component: {fileID: -6656119145420426498}
   m_Layer: 9
-  m_Name: Enemy
+  m_Name: Enemy Big
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3308bd8c1de996747ae8422cbe157eb5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d71a1bbe99fdaee4d86f2946ecb73dd6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -104,7 +104,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.93, y: 0.84}
+    oldSize: {x: 1.2615385, y: 1.2923077}
     newSize: {x: 0.93, y: 0.84}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -137,17 +137,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ddf6113de0ff18419508b32ef63b9d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
-  scoreValue: 100
-  minTimeBetweenShots: 0.5
-  maxTimeBetweenShots: 3.5
-  laserPrefab: {fileID: 3033991181021155659, guid: 5849fce6b28e0c94db5ff34387b5f63e, type: 3}
-  projectileSpeed: 8
+  health: 150
+  scoreValue: 400
+  minTimeBetweenShots: 1
+  maxTimeBetweenShots: 4
+  laserPrefab: {fileID: 3033991181021155659, guid: f6002ba62bf8b034d91e21090a9acd9b, type: 3}
+  projectileSpeed: 4
   deathVFX: {fileID: 2642712304150900208, guid: 1da17e000eff7ee4689161ccb2f7abce, type: 3}
   durationOfDeathExplosion: 1
   deathSFX: {fileID: 8300000, guid: 6274a00eae1570840a92035a4b86f9f8, type: 3}
   deathVolume: 0.7
-  shootSFX: {fileID: 8300000, guid: 8d82e71e8f3163a43b3faf4f96072cb5, type: 3}
+  shootSFX: {fileID: 8300000, guid: 7da528132520c854d9bb2ec611fe85c7, type: 3}
   shootVolume: 0.2
 --- !u!50 &-2264501181605821772
 Rigidbody2D:
