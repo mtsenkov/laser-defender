@@ -208,6 +208,14 @@ PrefabInstance:
       propertyPath: m_ScreenMatchMode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7123529992078367092, guid: e491c8e8718ef9942834d3684843ef49, type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7123529992078367092, guid: e491c8e8718ef9942834d3684843ef49, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7123529992078367093, guid: e491c8e8718ef9942834d3684843ef49, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
