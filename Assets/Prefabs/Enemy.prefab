@@ -140,7 +140,7 @@ MonoBehaviour:
   health: 50
   scoreValue: 100
   minTimeBetweenShots: 0.5
-  maxTimeBetweenShots: 3.5
+  maxTimeBetweenShots: 2
   laserPrefab: {fileID: 3033991181021155659, guid: 5849fce6b28e0c94db5ff34387b5f63e, type: 3}
   projectileSpeed: 8
   deathVFX: {fileID: 2642712304150900208, guid: 1da17e000eff7ee4689161ccb2f7abce, type: 3}

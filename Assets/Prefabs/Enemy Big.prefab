@@ -139,8 +139,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 150
   scoreValue: 400
-  minTimeBetweenShots: 1
-  maxTimeBetweenShots: 4
+  minTimeBetweenShots: 0.7
+  maxTimeBetweenShots: 3
   laserPrefab: {fileID: 3033991181021155659, guid: f6002ba62bf8b034d91e21090a9acd9b, type: 3}
   projectileSpeed: 4
   deathVFX: {fileID: 2642712304150900208, guid: 1da17e000eff7ee4689161ccb2f7abce, type: 3}
