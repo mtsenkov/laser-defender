@@ -22,6 +22,9 @@ public class Player : MonoBehaviour
     [SerializeField] AudioClip shootSFX;
     [SerializeField] [Range(0, 1)] float shootVolume = 0.2f;
 
+    [SerializeField] AudioClip takeDamageSFX;
+    [SerializeField] [Range(0, 1)] float takeDamageVolume = 0.2f;
+
     Coroutine firingCoroutine;
 
     float xMin;
@@ -65,7 +68,11 @@ public class Player : MonoBehaviour
         if (health <= 0)
         {
             Death();
-        }
+        } 
+        else 
+        { 
+            AudioSource.PlayClipAtPoint(takeDamageSFX, Camera.main.transform.position, takeDamageVolume);
+         }
     }
 
     private void Death()
