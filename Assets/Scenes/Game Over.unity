@@ -549,6 +549,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 899432949200824489, guid: fffbb46a77ae1d846857cb833227ac2e, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 899432949200824491, guid: fffbb46a77ae1d846857cb833227ac2e, type: 3}
       propertyPath: m_Name
       value: Game Over Canvas

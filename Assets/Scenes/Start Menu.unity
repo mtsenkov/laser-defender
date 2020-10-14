@@ -130,17 +130,61 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 231217090, guid: a035368392120e74982ab1f2853de782, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 231217090, guid: a035368392120e74982ab1f2853de782, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 231217090, guid: a035368392120e74982ab1f2853de782, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -550
+      objectReference: {fileID: 0}
     - target: {fileID: 231217091, guid: a035368392120e74982ab1f2853de782, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 865678311}
+    - target: {fileID: 1303818643, guid: a035368392120e74982ab1f2853de782, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303818643, guid: a035368392120e74982ab1f2853de782, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303818643, guid: a035368392120e74982ab1f2853de782, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -361
+      objectReference: {fileID: 0}
     - target: {fileID: 1349552538, guid: a035368392120e74982ab1f2853de782, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 865678311}
+    - target: {fileID: 1898008499, guid: a035368392120e74982ab1f2853de782, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1898008499, guid: a035368392120e74982ab1f2853de782, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1898008499, guid: a035368392120e74982ab1f2853de782, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -611
+      objectReference: {fileID: 0}
     - target: {fileID: 7123529992078367081, guid: a035368392120e74982ab1f2853de782, type: 3}
       propertyPath: m_Name
       value: Start Menu Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7123529992078367083, guid: a035368392120e74982ab1f2853de782, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7123529992078367092, guid: a035368392120e74982ab1f2853de782, type: 3}
+      propertyPath: m_RenderMode
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7123529992078367093, guid: a035368392120e74982ab1f2853de782, type: 3}
       propertyPath: m_LocalPosition.x
@@ -224,6 +268,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7123529992078367093, guid: a035368392120e74982ab1f2853de782, type: 3}
       propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7123529992078367093, guid: a035368392120e74982ab1f2853de782, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7123529992078367093, guid: a035368392120e74982ab1f2853de782, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7123529992078367093, guid: a035368392120e74982ab1f2853de782, type: 3}
+      propertyPath: m_LocalScale.z
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
