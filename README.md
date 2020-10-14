@@ -9,3 +9,5 @@ Add sound queue when player gets hit.\
 Add player death particle effect.\
 Add random number of enemy spawns per wave.\
 Refactor common code from enemy and player.
+
+You can download the game at: https://mtsenkov.itch.io/space-shooter
